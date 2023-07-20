@@ -1,0 +1,92 @@
+package com.mycompany.help;
+
+import java.util.Scanner;
+
+public class Help {
+
+    public static void main(String[] args) {
+        
+        int x = 123;//initialization
+        double y = 3.25;
+        boolean z = true;
+        String name = "Bro";
+        char symbol = '@';
+        
+        
+        System.out.println("My number is: "+x);
+        System.out.println("My number is: "+y);
+        System.out.println("My number is: "+z);
+        System.out.println("My name is: "+name);
+        System.out.println("My symbol is: "+symbol);
+
+
+            String x = "water";
+            String y = "kool-aid";
+            String temp;
+            
+            temp = x;
+            x = y;
+            y = temp;
+            
+            System.out.println("x: "+x);
+            System.out.println("y: "+y);
+
+
+
+                Scanner scanner = new Scanner(System.in);
+                
+                System.out.println("What is your name?");
+                String name = scanner.nextLine();
+                System.out.println("How  old are you? ");
+                int age = scanner.nextInt();
+                scanner.nextLine();
+                System.out.println("What is your favourite food?");
+                String food = scanner.nextLine();
+                
+                
+                System.out.println("Hello "+name);
+                System.out.println("You are "+age+" years old");
+                System.out.println("You like "+food);
+
+
+
+ expression = operands & operators
+ operands = values, variables, numbers, quantity
+ operators
+
+
+
+              int friends = 10;
+              
+              friends++;
+
+
+              
+              System.out.println(friends);
+
+                int friends = 10;
+                
+                friends = friends +1;
+                
+                System.out.println(friends);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+}
